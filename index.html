@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ecología </title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="eb.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama&display=swap" rel="stylesheet">
+    </head>
+    <body >
+        <div class="marriba" >
+            <a href="#" >
+                <img src="descarga (1).png" style="width: 50px;" id="bot">
+            </a>
+        </div>
+        <div style="z-index: 0; position: absolute; margin-top: 20px; width: 99%;" id="q">
+            <div class="abajo" id="abajo">
+                <div class="derecha" style="text-align: center" id="derecha">
+                    <h1>Página creada</h1>
+                    <p style="font-size: 30px;">Difusión de la Ecología</p>
+                </div>
+                <div class="izquierda" id="izquierda">
+                    <img src="Southern-Plateau-China-Tibet-Mount-Everest.jpg" style="width: 100%;">
+                    <div class="scp">
+                        <p>Southern China´s Himalayan Plateau</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="abajo1" style="z-index: 0; color: white;" >
+            <div class="qa" style="padding-left: 0px; padding-right: 20px;">
+                <img id="susc" src="C:\Users\Choco\Desktop\New folder (2)\png-clipart-computer-icons-social-media-color-blue-social-media.png" style="height: 50px;">
+                <div style="margin-top: -60px; margin-left: 90px; font-size: 20px;">
+                    <p> Suscríbete</p>
+                </div>
+            </div>
+            <div class="qb" style="padding-left: 20px; padding-right: 20px; color: black;">
+                <p>Última vez actualizado: 8-20-21</p>
+            </div>
+            <div class="qc" style="padding-left: 20px; padding-right: 20px;">
+                <p>Enlace con el creador: <a style="color: white" href="contacto@a.com">contacto@a.com</a></p>
+            </div>
+        </div>
+        <div class=" arriba" id="arriba">
+            <div class="et">
+                <h1>Menu</h1>
+            </div>
+            <div id="cont" class="cont">
+                <ul>
+                    <li id="lista1" style="padding-top: 20px;"><a href="C:\Users\Choco\Desktop\New folder (2)\index.html">  Inicio</a></li>
+                    <li id="lista1"><a href="#"> Herramientas </a>
+                        <ul >
+                            <li id="lista2" style="margin-top: 20px;"><a href="C:\Users\Choco\Desktop\New folder (2)\p1.html">Definicion de la Ecología </a></li>
+                            <li id="lista2"><a href="C:\Users\Choco\Desktop\New folder (2)\p2.html">Origenes de la Ecología </a></li>
+                            <li id="lista2"><a href="C:\Users\Choco\Desktop\New folder (2)\p3.html"> Usos de la Ecología</a></li>
+                        </ul>
+                    </li>
+                    <li id="lista1" ><a href="#"> Opciones </a></li>
+                    <li id="lista1"><a href="#"> Acerca </a></li>
+                    <li id="lista1" style="padding-bottom: 20px;"><a href="#"> Cuestionarios </a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            (function(){
+                var cont = 1;
+                let a = document.getElementById("arriba");
+                let b = document.getElementById("abajo");
+
+                var func = function(){
+                    cont = cont + 1;
+                    if(cont%2 == 0){
+                        a.style.opacity = 1;
+                        b.style.opacity = .3;
+                    }
+                    else{
+                        a.style.opacity = 0;
+                        b.style.opacity = 1;
+                    }
+                }
+                var c = document.getElementById("bot");
+                addEventListener("click", func);
+            }())
+        </script>
+    </body>
+</html>

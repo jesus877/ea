@@ -1,0 +1,180 @@
+.cont{
+    position: absolute;
+    top: 115px;
+    margin-left: -25px;
+}
+
+#cont #lista1{
+    background-color:#6eabbf;
+    width: 300px;
+    padding: 10px;
+    list-style: none;
+    padding-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#cont #lista1 #lista2{
+    background-color: rgb(46, 43, 43);
+    padding: 10px;
+    list-style: none;
+    padding-left: 40px;
+    display: none;
+    width: 300px;
+    margin-left: -80px;
+}
+
+.et{
+    position: absolute ;
+    top: 20px;
+    left: 140px;
+    background-color: rgb(46, 43, 43);
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+
+#cont #lista1 #lista2 a{
+    color: white;
+}
+
+#cont #lista1:hover #lista2{
+    display: block;
+}
+
+#cont #lista1:hover {
+    background-color: rgb(37, 35, 35);
+}
+
+#cont #lista1 #lista2:hover{
+    background-color: rgb(37, 35, 35);
+}
+
+#cont #lista1:hover a{
+    color: white;
+}
+
+#cont #lista1:hover ul{
+    margin-bottom: -10px;
+}
+
+.arriba{
+    font-family: 'Roboto', sans-serif;
+    opacity: 0;
+    z-index: 100;
+    background-color: transparent;
+    z-index: 1;
+    transition: opacity .5s ;
+}
+
+.marriba{
+    background-color: rgb(245, 21, 21);
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 30px;
+}
+
+html{
+    background-color:rgb(37, 35, 35);
+}
+
+.abajo{
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 0;
+    flex-wrap: nowrap;
+}
+
+.derecha{
+    background-color: lavender;
+    padding: 20px;
+    font-size: 60px;
+    width: 40%;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+    z-index: inherit;
+    transition:  width .5s;
+}
+
+.izquierda{
+    background-color: lavender;
+    padding: 20px;
+    font-size: 60px;
+    width: 50%;
+    height: 99%;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 500px;
+    z-index: inherit;
+    transition: width .5s;
+    overflow: hidden;
+}
+
+.abajo .derecha:hover{
+    width: 60%;
+    overflow: visible;
+    background-color: rgb(197, 197, 230);
+}
+
+.abajo .izquierda:hover{
+    width: 75%;
+}
+
+.abajo .izquierda:hover .scp{
+    opacity: 0;
+}
+
+.scp{
+    position: absolute;
+    top: 450px;
+    font-size: 20px;
+}
+
+.abajo1{
+    width: 96%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.qa{
+    background-color: rgb(87, 87, 184);
+    width: 17%;
+    height: inherit;
+    margin-left: 160px;
+}
+
+.qb{
+    background-color: #6eabbf;
+    width: 20%;
+    margin-right: 20px;
+    height: inherit;
+}
+
+.qc{
+    background-color: #4279bd ;
+    width: 40%;
+    margin-right: 20px;
+    height: inherit;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    border: 1px, silver, solid;
+}

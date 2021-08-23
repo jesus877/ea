@@ -1,0 +1,196 @@
+.arriba{
+    width: 99%;
+    height: 180px;
+    background-color: rgb(46, 43, 43);
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: visible;
+    z-index: 0;
+}
+
+.abajo{
+    width: 400px;
+    height: 75%;
+    position: fixed;
+    font-family: 'Georama', sans-serif;
+    background-color: transparent;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 1;
+    opacity: 0;
+    display: flex;
+    transition: opacity .5s ;
+    z-index: 0;
+}
+
+html{
+    background-color: rgb(37, 35, 35);
+}
+
+.cont{
+    position: absolute;
+    top: 115px;
+    margin-left: -25px;
+}
+
+#cont #lista1{
+    background-color:#6eabbf;
+    width: 300px;
+    padding: 10px;
+    list-style: none;
+    padding-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#cont #lista1 #lista2{
+    background-color: rgb(46, 43, 43);
+    padding: 10px;
+    list-style: none;
+    padding-left: 40px;
+    display: none;
+    width: 300px;
+    margin-left: -80px;
+}
+
+.et{
+    position: absolute ;
+    top: 20px;
+    left: 140px;
+    background-color: rgb(46, 43, 43);
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+
+#cont #lista1 #lista2 a{
+    color: white;
+}
+
+#cont #lista1:hover #lista2{
+    display: block;
+}
+
+#cont #lista1:hover {
+    background-color: rgb(37, 35, 35);
+}
+
+#cont #lista1 #lista2:hover{
+    background-color: rgb(37, 35, 35);
+}
+
+#cont #lista1:hover a{
+    color: white;
+}
+
+#cont #lista1:hover ul{
+    margin-bottom: -10px;
+}
+
+.a{
+    width: 98%;
+    height: max-content;
+    background-color: #4279bd    ;
+    justify-content: center;
+    margin-left: 150px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.b{
+    margin-right: 30px;
+    background-color: #6eabbf;
+    width: 96%;
+    height: max-content;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 17px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.d{
+    height: 500px;
+    width: 68%;
+    background-color: whitesmoke;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.da{
+    background-color: lavender;
+    width: 95%;
+    height: 370px;
+    margin-top: 70px;
+    margin-left: -20px;
+    padding: 40px;
+}
+
+.e{
+    height: 1000px;
+    width: 20%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 20px;
+    font-style:oblique;
+}
+
+.marriba{
+    position: sticky;
+    top: 10px;
+    background-color: rgb(245, 21, 21);
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: 3;
+    border-radius: 30px;
+}
+
+.enc{
+    position: fixed;
+    top: 10px;
+    right: 45px;
+    width: 10%;
+    height: 40px;
+    background-color: #4279bd;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+table, tr, td, th{
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    width: max-content;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+td{
+    width: 250px;
+}
+
+div{
+    border: 1px, silver, solid;
+}
